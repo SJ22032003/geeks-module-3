@@ -1,6 +1,6 @@
 WE WILL BE LEARING ABOUT GIT AND ITS BASIC CMDS
 
-these are some changes that I made after pushing the local repo into the remote repo
+these are some changes that I made after pushing the
 
 1. git init, we have initialized the git repository
 
