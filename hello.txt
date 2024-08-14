@@ -5,3 +5,5 @@ WE WILL BE LEARING ABOUT GIT AND ITS BASIC CMDS
 2. git status, we have checked the status of the repository
 
 3. git add, we have added the file to the staging area
+
+4. git commit, we have committed the file to the repository
