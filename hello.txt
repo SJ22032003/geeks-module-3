@@ -23,6 +23,8 @@ these are some changes that I made after pushing the
 
 1. git init, we have initialized the git repository
 
+2. made some changes
+
 2. git status, we have checked the status of the repository
 
 3. git add, we have added the file to the staging area
