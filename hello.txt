@@ -1,5 +1,7 @@
 WE WILL BE LEARING ABOUT GIT AND ITS BASIC CMDS
 
+This repository seems awesome.
+
 I am making changes in my main branch
 
 i am writing this to check git diff command
