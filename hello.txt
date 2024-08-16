@@ -1,6 +1,7 @@
 WE WILL BE LEARING ABOUT GIT AND ITS BASIC CMDS
 
-I am coming form new branch
+
+i am writing this to check git diff command
 
 these are some changes that I made after pushing the
 
