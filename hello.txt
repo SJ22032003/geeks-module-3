@@ -1,5 +1,7 @@
 WE WILL BE LEARING ABOUT GIT AND ITS BASIC CMDS
 
+I am coming form new branch
+
 these are some changes that I made after pushing the
 
 1. git init, we have initialized the git repository
