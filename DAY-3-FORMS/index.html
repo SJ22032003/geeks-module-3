@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms HTML</title>
+  </head>
+  <body>
+    <h3>We are learning about forms</h3>
+
+    <form action="">
+      <div>
+        <label for="first-name">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="first-name"
+          placeholder="write your first name"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="lastname" id="last-name" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div>
+        <h4>Favourite Fruits</h4>
+
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="fruit-1" id="banana" value="banana" />
+
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="fruit-2" id="apple" value="apple" />
+
+        <label for="orange">Orange</label>
+        <input type="checkbox" name="fruit-3" id="orange" value="orange" />
+      </div>
+
+      <br />
+
+      <div>
+        <h4>Choose you Gender</h4>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other" />
+      </div>
+
+      <br />
+
+      <div>
+        <h4>Agree</h4>
+
+        <label for="agree">I agree to the terms and conditions</label>
+        <input type="radio" name="agree" id="agree" value="agree" />
+
+        <label for="disagree">I Do not agree with this form</label>
+        <input type="radio" name="agree" id="disagree" value="disagree" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="salary">Salary</label>
+        <input
+          type="number"
+          name="salary"
+          id="salary"
+          min="1000"
+          max="100000"
+          step="200"
+        />
+      </div>
+
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input
+          type="date"
+          name="dob"
+          id="dob"
+          min="1996-01-01"
+          max="2020-05-05"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="your-time">Time</label>
+        <input
+          type="time"
+          name="your-time"
+          id="your-time"
+          min="09:00"
+          max="18:00"
+        />
+      </div>
+
+      <br>
+
+      <div>
+        <label for="blog">Write about yourself</label>
+        <br>
+        <textarea 
+        name="blog" 
+        id="blog"
+        cols="60"
+        rows="10"
+        ></textarea>
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="my-country">Country</label>
+
+        <select name="country" id="my-country">
+          <option value="india">India</output>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="canada">Canada</option>
+        </select>
+
+      </div>
+
+      <fieldset>
+        <legend>Contacts</legend>
+        
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        
+        <div>
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" />
+        </div>
+        
+        
+      </fieldset>
+
+      <br>
+
+      <div>
+        <!-- <input type="submit" value="Submit My Form" /> -->
+        <button type="submit">Submit My Form Button</button>
+      </div>
+
+      <br />
+
+      <div>
+        <!-- <input type="reset"> -->
+        <button type="reset">Reset Button</button>
+      </div>
+    </form>
+  </body>
+</html>
