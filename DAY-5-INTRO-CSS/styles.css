@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+}
+
+/* GROUPING SELECTOR */
+h1, h2, h3, h4, .myDivClass {
+  color: red
+}
+
+#myDiv {
+  padding: 10px;
+  border: 2px solid red;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.myDivClass {
+  padding: 10px;
+  border: 2px solid green;
+  font-size: 25px;
+}
+
+.myDivClass > p::first-letter {
+  font-size: 50px;
+}
+
+.myDivClass > p::first-line {
+  font-size: 30px;
+  color: black;
+}
+
+.myDivClass:hover {
+  background-color: yellow;
+}
+
+
+#myBtn {
+  /* by hex value */
+  background-color: #272926;
+  /* by name */
+  color: white; 
+  padding: 14px 20px;
+  margin: 8px 0;
+}
+
+/* PSEUDO-CLASS */
+#myBtn:hover {
+  /* by rgb */
+  background-color: rgb(25, 94, 158);
+}
+
+#myBtn:active {
+  background-color: #3e8e41;
+}
+
+/* PSEDO-elements */
+#myInput {
+  font-size: 25px;
+}
+#myInput::placeholder {
+  color: red;
+  font-size: 10px;
+}

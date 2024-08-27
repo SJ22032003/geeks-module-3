@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INTRO TO CSS</title>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- INTERNAL CSS -->
+    <style>
+      h2 {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- INLINE CSS -->
+    <div>
+      <h1 style="color: blue; background-color: gray">Welcome to my website</h1>
+      <p style="background-color: red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        consequatur quo nemo odio, cum quasi impedit numquam asperiores ullam
+        aliquam.
+      </p>
+    </div>
+
+    <!-- INTERNAL CSS -->
+    <div>
+      <h2 style="color: black">Internal CSS</h2>
+      <h2 class="myFontStyle">this will also change</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <!-- EXTERNAL CSS -->
+    <div>
+      <h3 class="myFontStyle">External CSS</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <!-- BOX MODEL -->
+
+    <div
+      style="
+        font-size: 30px;
+        border: 20px solid black;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore,
+      tenetur, repellat consequatur doloribus aut provident explicabo in
+      perferendis assumenda sit eum expedita ipsum, officiis delectus. Quis, et,
+      id nostrum error eveniet fugit ullam doloremque, rem tenetur neque harum
+      excepturi consequuntur.
+    </div>
+
+    <input id="myInput" type="text" placeholder="Enter your name" />
+
+    <!-- SELECTORS -->
+    <!-- ID AND CLASS SELECTOR -->
+
+    <!-- id selector -->
+    <div id="myDiv">
+      <h4 class="myFontStyle">ID SELECTOR</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <div id="myDiv2">
+      <h4>ID SELECTOR</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <!-- class selector -->
+    <div class="myDivClass">
+      <h4>CLASS SELECTOR</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <div class="myDivClass">
+      <h4>CLASS SELECTOR REPETED</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores
+        aliquam placeat quam, quis voluptate earum voluptas, iusto saepe
+        corrupti hic ut eius repudiandae magnam dicta autem esse voluptatum
+        suscipit!
+      </p>
+    </div>
+
+    <button id="myBtn">Click me</button>
+  </body>
+</html>
