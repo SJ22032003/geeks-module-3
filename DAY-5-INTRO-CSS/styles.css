@@ -1,81 +1,132 @@
+
+/**
+ * This CSS file contains styles for a webpage.
+ * It includes various selectors, properties, and values to customize the appearance of HTML elements.
+ * The styles are organized into different sections for easy understanding and maintenance.
+ */
+
+/**
+ * Reset the margin and padding of all elements to 0.
+ */
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
+/**
+ * Set the background color of the body to light blue.
+ */
 body {
   background-color: lightblue;
 }
 
-
-/* GROUPING SELECTOR */
+/**
+ * Apply the color red to heading elements (h1, h2, h3, h4) and elements with the class "myDivClass".
+ */
 h1, h2, h3, h4, .myDivClass {
-  color: red
+  color: red;
 }
 
+/**
+ * Style the element with the id "myDiv" by adding padding, border, font size, and margin.
+ */
 #myDiv {
-  padding: 10px;
+  margin-bottom: 20px;
   border: 2px solid red;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
+/**
+ * Style elements with the class "myDivClass" by adding padding, border, and font size.
+ */
 .myDivClass {
   padding: 10px;
   border: 2px solid green;
   font-size: 25px;
 }
 
+/**
+ * Increase the font size of the first letter of paragraphs inside elements with the class "myDivClass".
+ */
 .myDivClass > p::first-letter {
   font-size: 50px;
 }
 
+/**
+ * Increase the font size and change the color of the first line of paragraphs inside elements with the class "myDivClass".
+ */
 .myDivClass > p::first-line {
   font-size: 30px;
   color: black;
 }
 
+/**
+ * Change the background color to yellow when hovering over elements with the class "myDivClass".
+ */
 .myDivClass:hover {
   background-color: yellow;
 }
 
-
+/**
+ * Style the element with the id "myBtn" by adding background color, text color, padding, and margin.
+ */
 #myBtn {
   /* by hex value */
   background-color: #272926;
   /* by name */
-  color: white; 
+  color: white;
   padding: 14px 20px;
   margin: 8px 0;
 }
 
-/* PSEUDO-CLASS */
+/**
+ * Change the background color to a different shade of blue when hovering over the element with the id "myBtn".
+ */
 #myBtn:hover {
   /* by rgb */
   background-color: rgb(25, 94, 158);
 }
 
+/**
+ * Change the background color to a different shade of green when the element with the id "myBtn" is active.
+ */
 #myBtn:active {
   background-color: #3e8e41;
 }
 
-/* PSEDO-elements */
+/**
+ * Set the font size of the element with the id "myInput" to 25 pixels.
+ */
 #myInput {
   font-size: 25px;
 }
+
+/**
+ * Set the color and font size of the placeholder text of the element with the id "myInput".
+ */
 #myInput::placeholder {
   color: red;
   font-size: 10px;
 }
 
-#myList > li:nth-child(odd){
-  color: orange
+/**
+ * Set the color of odd list items inside the element with the id "myList" to orange.
+ */
+#myList > li:nth-child(odd) {
+  color: orange;
 }
 
+/**
+ * Add a checkmark symbol before each list item inside the element with the id "myList".
+ */
 #myList > li::before {
   content: "✅ ";
 }
 
+/**
+ * Add a celebration message after each list item inside the element with the id "myList".
+ */
 #myList > li::after {
   content: " 🎉 congrats completed";
 }
