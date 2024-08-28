@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.pxBox {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.parentPerBox {
+  border: 1px solid blue;
+  width: 400px;
+}
+
+.perBox {
+  width: 80%;
+  height: 20px;
+  border: 1px solid red;
+}
+
+.parentVwBox {
+  width: 200px;
+  border: 1px solid green;
+}
+
+.vwBox {
+  height: 20px;
+  width: 50vw;
+  border: 1px solid black;
+}
+
+.remBox {
+  width: 10rem;
+  height: 20px;
+  border: 1px solid gray;
+}
+
+.parentEmBox {
+  font-size: 20px;
+}
+
+.emBox {
+  border: 2px solid red;
+  font-size: 3em;
+}
+
+.boxModel {
+  width: 200px;
+  height: 200px;
+
+  margin: 1rem 2rem; /* top-bottom right-left */
+
+  padding: 20px 15px 10px 5px;
+
+  /* border: 2px  solid red; */
+
+  /* border-left: 2px solid;
+  border-right: 4px solid;
+  border-right-color: blue; */
+  
+  border: 20px solid red;
+/* 
+  border-radius: 200%; */
+
+}
+
+.mybtn{
+  border: none;
+}

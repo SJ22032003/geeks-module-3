@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url('./images/Roasted_coffee_beans.jpg');
+  min-height: 100vh;
+}
+
+hr {
+  border: 1px solid brown;
+  margin: 10px 0;
+}
+
+.menu {
+  border: 2px solid brown;
+  background-color: #DCB499;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header > h1, p {
+  text-align: center;
+}
