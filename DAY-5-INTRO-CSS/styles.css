@@ -1,6 +1,12 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+
 body {
   background-color: lightblue;
 }
+
 
 /* GROUPING SELECTOR */
 h1, h2, h3, h4, .myDivClass {
@@ -60,4 +66,16 @@ h1, h2, h3, h4, .myDivClass {
 #myInput::placeholder {
   color: red;
   font-size: 10px;
+}
+
+#myList > li:nth-child(odd){
+  color: orange
+}
+
+#myList > li::before {
+  content: "✅ ";
+}
+
+#myList > li::after {
+  content: " 🎉 congrats completed";
 }
