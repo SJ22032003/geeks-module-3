@@ -1,0 +1,26 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+#fontFamily {
+  font-family: serif;
+  /* font-size: larger; */
+  /* font-size: 25px; */
+  /* font-size: 25px; */
+  /* font-size: 1rem; */
+  font-style: normal;
+  font-size: 1em;
+}
+
+#fontStyle {
+  /* font-style: italic; */
+  /* font-style: oblique; */
+  /* font-style: normal; */
+  font-style: inherit;
+}
+
+#fontWeight {
+  font-style: italic;
+  /* font-weight: bolder; */
+  /* font-weight: lighter; */
+  font-weight: 400;
+}

@@ -1,0 +1,44 @@
+#textDec {
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  text-decoration: black underline dashed;
+}
+
+#textAlign {
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: justify;
+}
+
+#vertialAlign {
+  text-decoration: underline;
+}
+
+#childVertical {
+  font-size: 8px;
+  /* vertical-align: baseline; */
+  /* vertical-align: top; */
+  /* vertical-align: middle; */
+  /* vertical-align: bottom; */
+  /* vertical-align: text-top; */
+  /* vertical-align: text-bottom; */
+  /* vertical-align: 100%; */
+}
+
+#textTransform {
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: none; */
+  text-transform: capitalize;
+}
+
+
+#lineHeight {
+  /* line-height: normal; */
+  /* line-height: 1; */
+  /* line-height: 25px; */
+  line-height: 100%;
+}

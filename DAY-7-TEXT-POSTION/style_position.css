@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 200vh;
+}
+
+.parent {
+  border: 2px solid black;
+  background-color: red;
+  padding: 10px;
+ position: relative;
+}
+
+.child {
+  border: 2px solid black;
+  background-color: yellow;
+  margin: 5px 0;
+}
+
+.box1 {
+  position: static;
+}
+
+.box2 {
+  position: relative;
+}
+
+.box3 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0;
+}
+
+.box4 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
