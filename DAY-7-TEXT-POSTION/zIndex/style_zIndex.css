@@ -9,23 +9,27 @@
   height: 100px;
   width: 100px;
   border: 2px solid black;
-  /* position: absolute; */
+  position: absolute;
 }
+
 
 .child1 {
   background-color: red;
-  /* top: 0;
-  left: 0; */
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .child2 {
   background-color: green;
-  /* top: 40px;
-  left: 40px; */
+  top: 40px;
+  left: 40px;
+  z-index: 1;
 }
 
 .child3 {
   background-color: blue;
-  /* top: 80px;
-  left: 80px; */
+  top: 80px;
+  left: 80px;
+  z-index: 99;
 }

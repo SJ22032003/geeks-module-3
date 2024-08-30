@@ -4,7 +4,7 @@
 }
 
 body {
-  min-height: 200vh;
+  min-height: 250vh;
 }
 
 .parent {
@@ -26,7 +26,7 @@ body {
 }
 
 .box2 {
-  position: static;
+  position: relative;
 }
 
 .box3 {
