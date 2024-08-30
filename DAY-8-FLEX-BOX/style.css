@@ -1,40 +1,41 @@
 .main-container {
-  padding: 10px;
+  /* padding: 10px; */
   background-color: gray;
   min-height: 600px;
 
   /* flex on parent container */
-  /* display: flex; */
+  display: flex;
 
   /* 
     column | row | row-reverse | column-reverse 
     default is row
   */
-  /* flex-direction: row; */
+  flex-direction: row;
 
   /* 
     justifying the content 
     flex-start | flex-end | center | space-between | space-around 
     default is flex-start
    */
-  /* justify-content: center; */
+  justify-content: center;
 
   /* 
     aligning the content 
     flex-start | flex-end | center | stretch  
    */
-  /* align-items: center; */
+  align-items: center;
 
   /* 
     flex-wrap: wrap | nowrap | wrap-reverse 
     default is nowrap
    */
-  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
+
 
   /*
     gap between the items
   */
-  /* gap: 20px; */
+  gap: 10px;
 
 
 }
@@ -43,7 +44,8 @@
   width: 100px;
   height: 100px;
   font-size: 2rem;
-  /* flex-grow: 0; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 
 }
 
@@ -51,6 +53,7 @@
   background-color: red;
   /* align-self: flex-start; */
   /* flex-shrink: 1; */
+  /* flex-grow: 1; */
 }
 
 .item-2 {
@@ -60,7 +63,7 @@
 
 .item-3 {
   background-color: green;
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 .item-4 {
