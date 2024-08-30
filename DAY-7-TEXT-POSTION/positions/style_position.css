@@ -10,8 +10,9 @@ body {
 .parent {
   border: 2px solid black;
   background-color: red;
+  min-height: 100vh;
   padding: 10px;
- position: relative;
+  position: relative;
 }
 
 .child {
@@ -25,11 +26,11 @@ body {
 }
 
 .box2 {
-  position: relative;
+  position: static;
 }
 
 .box3 {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0px;
   left: 0px;
   margin: 0;
@@ -39,4 +40,9 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+
+.box5 {
+  position: sticky;
+  top:0;
 }
