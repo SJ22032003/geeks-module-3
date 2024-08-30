@@ -2,10 +2,10 @@
   /* padding: 10px; */
   background-color: gray;
   min-height: 600px;
-
+  
   /* flex on parent container */
   display: flex;
-
+  
   /* 
     column | row | row-reverse | column-reverse 
     default is row
