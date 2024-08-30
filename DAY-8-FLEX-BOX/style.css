@@ -1,0 +1,78 @@
+.main-container {
+  padding: 10px;
+  background-color: gray;
+  min-height: 600px;
+
+  /* flex on parent container */
+  display: flex;
+
+  /* 
+    column | row | row-reverse | column-reverse 
+    default is row
+  */
+  /* flex-direction: row; */
+
+  /* 
+    justifying the content 
+    flex-start | flex-end | center | space-between | space-around 
+    default is flex-start
+   */
+  /* justify-content: center; */
+
+  /* 
+    aligning the content 
+    flex-start | flex-end | center | stretch  
+   */
+  /* align-items: center; */
+
+  /* 
+    flex-wrap: wrap | nowrap | wrap-reverse 
+    default is nowrap
+   */
+  /* flex-wrap: wrap; */
+
+  /*
+    gap between the items
+  */
+  /* gap: 20px; */
+
+
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  /* flex-grow: 0; */
+
+}
+
+.item-1 {
+  background-color: red;
+  /* align-self: flex-start; */
+  /* flex-shrink: 1; */
+}
+
+.item-2 {
+  background-color: blue;
+  /* align-self: flex-end; */
+}
+
+.item-3 {
+  background-color: green;
+  /* flex-grow: 1; */
+}
+
+.item-4 {
+  background-color: yellow;
+}
+
+.item-5 {
+  background-color: pink;
+}
+
+.item-6 {
+  background-color: purple;
+}
+
+
