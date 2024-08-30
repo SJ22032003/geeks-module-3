@@ -47,6 +47,11 @@
   /* flex-grow: 1; */
   /* flex-shrink: 1; */
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 .item-1 {
