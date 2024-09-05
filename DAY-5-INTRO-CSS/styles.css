@@ -11,6 +11,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /**
@@ -31,10 +32,15 @@ h1, h2, h3, h4, .myDivClass {
  * Style the element with the id "myDiv" by adding padding, border, font size, and margin.
  */
 #myDiv {
+  background-color: pink;
   margin-bottom: 20px;
   border: 2px solid red;
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.myDivPara {
+  color: blue;
 }
 
 /**
@@ -106,8 +112,8 @@ h1, h2, h3, h4, .myDivClass {
  * Set the color and font size of the placeholder text of the element with the id "myInput".
  */
 #myInput::placeholder {
-  color: red;
-  font-size: 10px;
+  color: blue;
+  font-size: 30px;
 }
 
 /**
@@ -129,4 +135,12 @@ h1, h2, h3, h4, .myDivClass {
  */
 #myList > li::after {
   content: " 🎉 congrats completed";
+}
+
+.test-div {
+  border: 20px solid black;
+  width: 500px;
+  padding: 40px;
+  max-width: 500px;
+  min-width: 200px;
 }

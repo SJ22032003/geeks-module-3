@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.parent {
+  background-color: gray;
+  min-height: inherit;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+
+}
+
+.child {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.child1 {
+  flex-grow: 1;
+}
+
+.child2 {
+  flex-grow: 2;
+}
+
+.child4 {
+  flex-grow: 4;
+}
