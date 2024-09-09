@@ -84,8 +84,10 @@ main {
 }
 
 .middle-section {
-  letter-spacing: 0.6px;
+  
   column-width: 20rem;
+  
+  letter-spacing: 0.6px;
   text-align: justify;
   font-size: 1.2rem;
   color: linen;
