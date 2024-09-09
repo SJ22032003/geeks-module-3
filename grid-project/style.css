@@ -35,6 +35,7 @@ main {
   .hero {
     grid-column: 1 / -1;
 
+    display: grid;
     color: orangered;
     font-family: Anton, sans-serif;
 
@@ -51,8 +52,8 @@ main {
     }
 
     & > img {
-      width: 100%;
-      object-fit: cover;
+      width: 800px;
+      justify-self: center;
     }
   }
 
