@@ -33,7 +33,6 @@ main {
   row-gap: 20px;
 
   .hero {
-    grid-column: 1 / -1;
 
     display: grid;
     color: orangered;
@@ -86,7 +85,7 @@ main {
 .middle-section {
   
   column-width: 20rem;
-  
+
   letter-spacing: 0.6px;
   text-align: justify;
   font-size: 1.2rem;
