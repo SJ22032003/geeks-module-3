@@ -24,7 +24,6 @@ main {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, minmax(auto, fit-content));
   row-gap: 20px;
 }
 
