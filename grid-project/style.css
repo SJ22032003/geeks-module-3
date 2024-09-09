@@ -17,16 +17,14 @@ body {
 main {
 
   padding: 20px;
-
   min-height: inherit;
   max-width: 1200px;
   margin: 0 auto;
+  
 
   display: grid;
-
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, minmax(auto, fit-content));
-
   row-gap: 20px;
 }
 
@@ -173,7 +171,12 @@ main {
         color: #00beef;
         font-size: 2rem;
         line-height: 3rem;
-        word-spacing: 1rem;
+      }
+      & > p::after {
+        content: '"';
+      }
+      & > p::before {
+        content: '"';
       }
     }
 
