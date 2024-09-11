@@ -15,12 +15,10 @@ body {
 }
 
 main {
-
   padding: 20px;
   min-height: inherit;
   max-width: 1200px;
   margin: 0 auto;
-  
 
   display: grid;
   grid-template-columns: 1fr;
@@ -33,15 +31,19 @@ main {
   row-gap: 20px;
 
   .hero {
-
     display: grid;
     color: orangered;
     font-family: Anton, sans-serif;
 
-    & > h1 {
+    .hero-title {
       text-align: center;
       font-size: 5rem;
       text-transform: uppercase;
+
+      @media screen and (max-width: 765px){
+        font-size: 2.5rem;
+      }
+
     }
 
     & > p {
@@ -60,6 +62,10 @@ main {
   .author {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: 765px) {
+       grid-template-columns: 1fr;
+     }
 
     .author-about {
       color: #fff;
@@ -84,7 +90,6 @@ main {
 }
 
 .middle-section {
-  
   column-width: 20rem;
 
   letter-spacing: 0.6px;
@@ -128,12 +133,13 @@ main {
 .bottom-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: linen;
   column-gap: 20px;
 
   .brief-history {
-    & > h4,h5 {
+    & > h4,
+    h5 {
       color: #00beef;
       font-size: 1.5rem;
     }
@@ -151,7 +157,6 @@ main {
         }
       }
     }
-
   }
 
   .img-history {
@@ -189,7 +194,5 @@ main {
     .img-3 {
       grid-column: 1 / -1;
     }
-
   }
-
 }

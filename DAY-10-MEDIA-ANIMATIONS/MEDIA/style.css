@@ -1,0 +1,41 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #414141;
+  color: #fff;
+  font-size: 2rem;
+}
+
+  .my-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20%;
+    & > li {
+      list-style: none;
+      & > a {
+        color: #fff;
+      }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: red;
+  }
+
+  .my-nav {
+    gap: 30px;
+  }
+
+}
+
+@media screen and (max-width: 636px) {
+  .my-nav {
+    flex-direction: column;
+  }
+}
