@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.road {
+  background-color: gray;
+  height: 600px;
+  position: relative;
+
+  overflow: hidden;
+
+  hr {
+    border: 10px dashed #fff;
+    position: absolute;
+    width: 100%;
+    top:50%;
+  }
+
+
+  .car1 {
+    height: 250px;
+    animation-name: racecar1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.09,.46,1,-0.09);
+    animation-delay: 0s;
+
+    position: absolute;
+
+    top: 10px;
+    left: 0px
+
+  }
+
+  .car2 {
+    position: absolute;
+    height: 250px;
+    bottom: 10px;
+    left: 0px;
+
+    /*         name     duration   time-function     delay  count   direction */
+    animation: racecar2 5s ease-in-out 0s infinite normal;
+
+  }
+
+}
+
+@keyframes racecar1 {
+
+  0% {
+    transform: translateX(-20vw);
+  }
+
+  /* 70% {
+    transform: translateX(500px) rotateZ(-30deg);
+  } */
+
+  100% {
+    transform: translateX(120vw);
+  }
+
+}
+
+
+@keyframes racecar2 {
+
+  0% {
+    transform: translateX(-20vw);
+  }
+
+  /* 50% {
+    transform: skew(50deg);
+  } */
+
+  70% {
+    transform: translateX(500px) rotateZ(-30deg);
+  }
+
+  100% {
+    transform: translateX(120vw);
+  }
+
+}
