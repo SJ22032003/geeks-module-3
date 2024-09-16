@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: red;
+}
+
+nav {
+  background-color: green;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-list {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10%;
+
+  & > li {
+    list-style: none;
+  }
+}
+
+/* 
+
+min-width
+max-width 99%
+
+min-height
+max-height
+
+
+*/
+
+
+
+/* @media screen and (min-width:800px) and (max-width:1200px) {
+  body {
+    background-color: purple;
+  }
+} */
+
+@media screen and (max-width: 650px) {
+  .nav-list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav-list {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+
+/* 
+@media screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}
+ */
