@@ -28,6 +28,17 @@ nav {
   }
 }
 
+.nav-list > li:not(.home-tab) {
+ & > a {
+  font-size: 2rem;
+ }
+}
+.home-tab > a {
+  font-size: 5rem;
+  color: yellow
+}
+
+
 /* 
 
 min-width
@@ -44,6 +55,20 @@ max-height
 /* @media screen and (min-width:800px) and (max-width:1200px) {
   body {
     background-color: purple;
+  }
+} */
+
+
+
+/* @media screen and (orientation: landscape) {
+  body{ 
+    background-color: aqua;
+  }
+}
+
+@media screen and  (orientation: portrait) {
+  body {
+    background-color: brown;
   }
 } */
 
