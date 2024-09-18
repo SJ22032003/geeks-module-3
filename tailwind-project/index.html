@@ -28,9 +28,9 @@
 
       <section>
         <div
-          class="bg-[url('./images/hero-img.avif')] h-screen flex justify-center items-center"
+          class="bg-[url('./images/hero-img.avif')] h-[85vh] flex justify-center items-center"
         >
-          <span class="w-full h-full absolute opacity-75 bg-black"></span>
+          <span class="w-full h-[85vh] absolute opacity-75 bg-black"></span>
           <div class="text-white z-10 w-1/2 flex flex-col items-center gap-4">
             <h1 class="text-center text-5xl font-semibold">
               Feel the <span class="text-orange-500">Power</span>
@@ -49,9 +49,165 @@
         </div>
       </section>
 
-      <section>about</section>
-      <section>meet the trainers</section>
-      <section>contact us</section>
+      <section class="bg-black flex justify-center items-center p-10">
+        <div class="w-full max-w-7xl flex p-6">
+          <div class="w-full flex justify-center items-center">
+            <img
+              src="./images/about-section.avif"
+              alt="about section"
+              class="w-3/5"
+            />
+          </div>
+
+          <div class="w-full text-white flex flex-col justify-center gap-8">
+            <div>
+              <small class="text-orange-500">About our gym</small>
+              <h2 class="text-4xl font-semibold">SAFE BODY BUILDING</h2>
+            </div>
+
+            <p class="text-xl">
+              The extension comes with three pre-built pages to help you get
+              started faster. You can change the text and images and you're good
+              to go.
+            </p>
+
+            <div class="flex flex-col gap-6">
+              <div>
+                <i class="fa-solid fa-gun text-orange-500 text-xl"></i>
+                <span class="text-xl"> latest & gratest gym equipment</span>
+              </div>
+              <div>
+                <i
+                  class="fa-solid fa-helmet-safety text-orange-500 text-xl"
+                ></i>
+                <span class="text-xl"> 5-inch,qulity foam floor padding</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-users text-orange-500 text-xl"></i>
+                <span class="text-xl"> 3 professioonal trainers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex justify-center items-center p-10">
+        <div
+          class="flex flex-col gap-24 justify-between w-full max-w-7xl p-6"
+        >
+          <div>
+            <div class="w-full max-w-2xl mx-auto">
+              <h2 class="text-center text-4xl font-semibold">
+                MEET OUR TRAINERS
+              </h2>
+              <p class="text-center text-lg text-gray-500 mt-3">
+                Our trainers are are here to dedicate the time and effort that
+                you need to get in the best shape of your life
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 flex-wrap justify-between">
+            <div class="flex flex-col gap-5">
+              <div>
+                <img src="./images/trainer-1.avif" alt="trainer 1" class="w-full max-w-72 mx-auto" />
+              </div>
+
+              <div class="text-center">
+                <h3 class="text-xl font-semibold">Mr Rogers</h3>
+                <p class="text-gray-500">Neighborhood Watchman</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-5">
+              <div>
+                <img src="./images/trainer-1.avif" alt="trainer 1" class="w-full max-w-72 mx-auto" />
+              </div>
+
+              <div class="text-center">
+                <h3 class="text-xl font-semibold">Mr Rogers</h3>
+                <p class="text-gray-500">Neighborhood Watchman</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-5">
+              <div>
+                <img src="./images/trainer-1.avif" alt="trainer 1" class="w-full max-w-72 mx-auto" />
+              </div>
+
+              <div class="text-center">
+                <h3 class="text-xl font-semibold">Mr Rogers</h3>
+                <p class="text-gray-500">Neighborhood Watchman</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+            <section class="flex justify-center items-center p-10 bg-black">
+        <div
+          class="flex flex-col gap-24 justify-between w-full max-w-7xl p-6"
+        >
+          <div>
+            <div class="w-full max-w-2xl mx-auto text-white">
+              <h2 class="text-center text-4xl font-semibold">
+                CONTACT US
+              </h2>
+              <p class="text-center text-lg mt-3">
+                Contact us to ask any questions, aquire a membership, talk to our trainers or anything else
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 flex-wrap justify-center">
+
+            <div class="bg-orange-500 text-white p-10 flex flex-col justify-between gap-10">
+
+              <div>
+                <h3 class="text-2xl font-semibold">Want to work with us?</h3>
+                <p class="mt-1">Complete this form and we will get back to you in 24 hours.</p>
+              </div>
+
+              <div>
+
+                <form action="" class="flex flex-col gap-5">
+
+                  <div class="flex flex-col gap-2 text-sm font-semibold">
+                    <label for="name">FULL NAME</label>
+                    <input type="text" id="name" placeholder="Full Name" class="p-3 rounded border border-black text-black" />
+                  </div>
+
+                  <div class="flex flex-col gap-2 text-sm font-semibold">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" placeholder="Email" class="p-3 rounded border border-black text-black" />
+                  </div>
+
+                  <div class="flex flex-col gap-2 text-sm font-semibold">
+                    <label for="message">MESSAGE</label>
+                    <textarea type="text" id="message" placeholder="Type you message..." class="p-3 rounded border border-black text-black"></textarea>
+                  </div>
+
+
+                  </div>
+
+                  <div class="flex justify-center">
+
+                    <button class="bg-black text-white font-semibold px-4 py-2 rounded border-none">SEND MESSAGE</button>
+
+                  </div>
+
+                </form>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       <footer>footer</footer>
     </div>
