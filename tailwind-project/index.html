@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>November Room</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/faad120103.js"
@@ -28,10 +29,10 @@
 
       <section>
         <div
-          class="bg-[url('./images/hero-img.avif')] h-[85vh] flex justify-center items-center"
+          class="bg-[url('./images/hero-img.avif')] h-[85vh] flex justify-center items-center bg-no-repeat bg-cover"
         >
           <span class="w-full h-[85vh] absolute opacity-75 bg-black"></span>
-          <div class="text-white z-10 w-1/2 flex flex-col items-center gap-4">
+          <div class="text-white z-10 w-1/2 flex flex-col items-center gap-4" id="hero-details">
             <h1 class="text-center text-5xl font-semibold">
               Feel the <span class="text-orange-500">Power</span>
             </h1>
@@ -56,10 +57,11 @@
               src="./images/about-section.avif"
               alt="about section"
               class="w-3/5"
+              id="about-section-img"
             />
           </div>
 
-          <div class="w-full text-white flex flex-col justify-center gap-8">
+          <div class="w-full text-white flex flex-col justify-center gap-8" id="about-section-details">
             <div>
               <small class="text-orange-500">About our gym</small>
               <h2 class="text-4xl font-semibold">SAFE BODY BUILDING</h2>
@@ -205,7 +207,7 @@
 
             </div>
 
-          </div>
+        </div>
         </div>
       </section>
 
