@@ -19,7 +19,9 @@
             <h1 class="text-xl text-white font-semibold">THE NOVEMBER ROOM</h1>
           </div>
 
-          <div class="text-2xl text-orange-500 flex gap-8">
+          <i class="fa-solid fa-bars text-white sm:hidden"></i>
+
+          <div class="text-2xl text-orange-500 sm:flex gap-8 hidden">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-linkedin"></i>
@@ -32,11 +34,11 @@
           class="bg-[url('./images/hero-img.avif')] h-[85vh] flex justify-center items-center bg-no-repeat bg-cover"
         >
           <span class="w-full h-[85vh] absolute opacity-75 bg-black"></span>
-          <div class="text-white z-10 w-1/2 flex flex-col items-center gap-4" id="hero-details">
-            <h1 class="text-center text-5xl font-semibold">
+          <div class="text-white z-10 w-full max-w-2xl p-6 flex flex-col items-center gap-4" id="hero-details">
+            <h1 class="text-center text-3xl  sm:text-5xl font-semibold">
               Feel the <span class="text-orange-500">Power</span>
             </h1>
-            <p class="text-center text-xl text-gray-300 leading-9">
+            <p class="text-center text-lg sm:text-xl text-gray-300 leading-6 sm:leading-9">
               Welcome to The November Room. We are a fitness and training center
               that focuses on pushing you to your absolute limit. Download our
               complete brochure to get started today!
@@ -51,12 +53,12 @@
       </section>
 
       <section class="bg-black flex justify-center items-center p-10">
-        <div class="w-full max-w-7xl flex p-6">
+        <div class="w-full max-w-7xl flex flex-col gap-4 p-6 md:flex-row">
           <div class="w-full flex justify-center items-center">
             <img
               src="./images/about-section.avif"
               alt="about section"
-              class="w-3/5"
+              class="w-full max-w-md"
               id="about-section-img"
             />
           </div>
@@ -109,7 +111,7 @@
             </div>
           </div>
 
-          <div class="flex gap-4 flex-wrap justify-between">
+          <div class="flex gap-4 flex-wrap justify-center md:justify-between">
             <div class="flex flex-col gap-5">
               <div>
                 <img src="./images/trainer-1.avif" alt="trainer 1" class="w-full max-w-72 mx-auto" />
@@ -149,7 +151,7 @@
 
 
 
-        <section class="flex justify-center items-center p-10 bg-black">
+        <section class="flex justify-center items-center p-2  md:p-10  bg-black">
         <div
           class="flex flex-col gap-24 justify-between w-full max-w-7xl p-6"
         >
@@ -166,7 +168,7 @@
 
           <div class="flex gap-4 flex-wrap justify-center">
 
-            <div class="bg-orange-500 text-white p-10 flex flex-col justify-between gap-10">
+            <div class="bg-orange-500 text-white p-10 flex flex-col justify-between gap-10 w-full max-w-4xl">
 
               <div>
                 <h3 class="text-2xl font-semibold">Want to work with us?</h3>
@@ -224,7 +226,7 @@
 
             </div>
 
-            <div class="my-4">
+            <div class="my-4 flex justify-center gap-4 sm:justify-start">
 
               <button class="bg-white p-3 rounded-full">
                 <i class="flex fab fa-twitter text-blue-400"></i>
@@ -243,7 +245,7 @@
           </div>  
           
           <div>
-            <hr>
+            <hr class="border border-gray-500">
             <p class="text-center mt-8 text-gray-600">Copyright © 2020 THE NOVEMBER ROOM</p>
           </div>
 
